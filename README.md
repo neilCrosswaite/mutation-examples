@@ -20,3 +20,14 @@ Ensure you have Conda installed on your machine. If you do not have Conda instal
     conda env create -f environment.yml
     ``````
     This will create a new conda environment named mutation_testing (as specified in the environment.yml file) with pytest, and mutmut.
+
+3. **Activate the Environment**
+    ```bash
+    conda activate mutation_testing
+    ```
+
+4. **Verify the Installation**
+    ```bash
+    pytest --version
+    mutmut --version
+    ```
