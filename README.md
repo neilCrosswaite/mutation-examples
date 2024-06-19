@@ -31,3 +31,17 @@ Ensure you have Conda installed on your machine. If you do not have Conda instal
     pytest --version
     mutmut --version
     ```
+
+
+# Mutmut
+mutmut can be run with.
+```bash
+mutmut run
+```
+
+# Coverage
+Coverage can be run with 
+```bash
+coverage run -m pytest 
+coverage html
+```

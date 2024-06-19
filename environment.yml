@@ -2,7 +2,7 @@ name: mutation_testing
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.9
   - pytest
   - pip
   - coverage
