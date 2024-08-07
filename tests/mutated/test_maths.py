@@ -1,5 +1,5 @@
 import pytest
-from mutated.maths import add, subtract, is_within_range
+from mutated.maths import add, subtract, is_within_range, is_prime
 
 def test_add():
     assert add(1, 2) == 3
@@ -13,9 +13,13 @@ def test_subtract():
 
 def test_within_range():
     assert is_within_range(5, 1, 10)
-
-def test_below_range():
     assert not is_within_range(0, 1, 10)
-
-def test_above_range():
     assert not is_within_range(11, 1, 10)
+    assert is_within_range(1, 1, 10)
+
+def test_is_prime():
+    assert is_prime(2)
+    assert is_prime(3)
+    assert is_prime(5)
+    assert is_prime(7)
+    assert is_prime(31)
