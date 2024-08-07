@@ -6,5 +6,6 @@ dependencies:
   - pytest
   - pip
   - coverage
+  - iris
   - pip:
     - mutmut
