@@ -1,14 +1,14 @@
 import numpy as np
 
-def multiply_by_pattern(arr):
+def multiply_arr_by(arr, num):
     """
-    Takes a NumPy array and multiplies it by a repeating pattern [0, 1].
+    Multiply the elements of the array by the given number
     
-    Parameters:
-    arr (numpy.ndarray): Input array of numbers.
-
-    Returns:
-    numpy.ndarray: Array where elements are multiplied by the pattern [0, 1].
+    Parameters
+    ----------
+    arr : numpy.ndarray
+        The input array
+        num : int
+        The number to multiply by
     """
-    pattern = np.array([0, 1])
-    return arr * np.tile(pattern, len(arr) // len(pattern) + 1)[:len(arr)]
+    return arr * num
