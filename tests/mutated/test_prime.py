@@ -8,10 +8,5 @@ def test_is_prime():
     assert is_prime(5)
     assert is_prime(7)
     assert is_prime(31)
-    # assert is_prime(9999999900000001)
-
-
-    # assert not is_prime(1)
-    # assert not is_prime(4)
-    # assert not is_prime(6)
-    # assert not is_prime(8)
+    
+    # 9999999900000001
