@@ -1,5 +1,3 @@
-import numpy as np
-
 def multiply_arr_by(arr, num):
     """
     Multiply the elements of the array by the given number
@@ -11,4 +9,4 @@ def multiply_arr_by(arr, num):
         num : int
         The number to multiply by
     """
-    return arr * num
+    return num * arr

@@ -8,3 +8,9 @@ def test_multiply_arr_by():
     num = 2
     result = multiply_arr_by(arr, num)
     assert np.all(result == 2)
+
+    
+    arr = np.ones(15)
+    num = 17
+    result = multiply_arr_by(arr, num)
+    assert np.all(result == 17)
