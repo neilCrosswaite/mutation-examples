@@ -8,5 +8,3 @@ def test_is_prime():
     assert is_prime(5)
     assert is_prime(7)
     assert is_prime(31)
-    
-    # 9999999900000001
